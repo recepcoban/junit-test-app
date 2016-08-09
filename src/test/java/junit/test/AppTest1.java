@@ -34,15 +34,7 @@ public class AppTest1 {
 	}
 
 	@Test
-	public void testSonantFail() {
-		FindLetter findLetter = new FindLetter();
-		int sonant = findLetter.sonant("recepcoban");
-		System.err.println("method : " + new Object(){}.getClass().getEnclosingMethod().getName());
-		Assert.assertEquals(3, sonant); // fail -> expected:<3> but was:<4>
-	}
-
-	@Test
-	public void testSonantSuccess() {
+	public void testSonant() {
 		FindLetter findLetter = new FindLetter();
 		int sonant = findLetter.sonant("recepcoban");
 		System.err.println("method : " + new Object(){}.getClass().getEnclosingMethod().getName());
