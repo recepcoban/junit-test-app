@@ -49,13 +49,13 @@ public class AppTest1 {
 		Assert.assertEquals(6, consonant);
 	}
 
-	@Test(timeout = 10)
+	/*@Test(timeout = 10)
 	public void testForTimeout() {
 		System.err.println("method : " + new Object(){}.getClass().getEnclosingMethod().getName());
 		while (true) {
 			// code
 		}
-	}
+	}*/
 	
 	@Test(expected = Exception.class)
 	public void testForException() {
