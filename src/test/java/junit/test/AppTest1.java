@@ -57,11 +57,11 @@ public class AppTest1 {
 		}
 	}*/
 	
-	@Test(expected = Exception.class)
+	/*@Test(expected = Exception.class)
 	public void testForException() {
 		System.err.println("method : " + new Object(){}.getClass().getEnclosingMethod().getName());
 		// code
-	}
+	}*/
 
 	@Ignore
 	@Test
