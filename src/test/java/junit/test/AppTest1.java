@@ -78,10 +78,10 @@ public class AppTest1 {
 		Assert.assertTrue("assertTrue".equals("assertTrue"));
 	}
 	
-	@Test
+	/*@Test
 	public void assertFalse(){
 		System.err.println("method : " + new Object(){}.getClass().getEnclosingMethod().getName());
 		Assert.assertFalse(1 == 2);
-	}
+	}*/
 
 }
