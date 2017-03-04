@@ -38,7 +38,7 @@ public class AppTest1 {
 		FindLetter findLetter = new FindLetter();
 		int sonant = findLetter.sonant("recepcoban");
 		System.err.println("method : " + new Object(){}.getClass().getEnclosingMethod().getName());
-		Assert.assertEquals(5, sonant);
+		Assert.assertEquals(4, sonant);
 	}
 
 	@Test
